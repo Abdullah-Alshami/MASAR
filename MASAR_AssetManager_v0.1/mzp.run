@@ -1,0 +1,8 @@
+﻿name "MASAR - Asset Manager for 3ds Max"
+description "MASAR - Asset Manager for 3ds Max | Native MAXScript Edition"
+version 50
+copy "MASAR\\MASAR_Native.ms" to "$userScripts\\MASAR"
+copy "MASAR\\MASAR.mcr" to "$userMacros"
+copy "MASAR\\masar_logo.png" to "$userScripts\\MASAR"
+drop "MASAR\\MASAR_Install.ms"
+clear temp on MAX exit
